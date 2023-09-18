@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Details</title>
+</head>
+<body>
+<h1>Todo Item Added</h1>
+
+<!-- Display Saved Employee Details -->
+<div>
+    <p><strong>ID:</strong> <span th:text="${todo.id}"></span></p>
+    <p><strong>Title:</strong> <span th:text="${todo.tittle}"></span></p>
+    <p><strong>Completed:</strong> <span th:text="${todo.isCompleted}"></span></p>
+</div>
+</body>
+</html>
